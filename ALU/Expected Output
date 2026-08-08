@@ -1,0 +1,21 @@
+SEL   A   B   OUT   ZERO
+000  15   5    20    0
+001  15   5    10    0
+010  15   5     5    0
+011  15   5    15    0
+100  15   5    10    0
+101  15   5   240    0
+110  15   5    30    0
+111  15   5     7    0
+
+
+# ALU Operations
+ALU_Sel	 Operation 	Description
+000	     Addition	   A + B
+001  	Subtraction    A − B
+010  	   AND	       A & B
+011	       OR	       A | B
+100	       XOR	       A ^ B
+101     	NOT	         ~A
+110	    Left Shift	   A << 1
+111	    Right Shift	    A >> 1
